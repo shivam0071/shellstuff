@@ -1,0 +1,115 @@
+To get the present directory type 
+pwd
+for calender use
+cal
+cal feb 2011
+cal 12 1993
+
+for date use
+date
+
+for formatting date in your style use
+date '+DATE:%m-%y%nTime:%H:%M:%S'
+
+
+for making a folder use
+mkdir folder_name
+
+mkdir Desktop/folder_name
+
+touch file1 file2 file3
+to make empty text files
+
+
+use cat command to make files
+cat > file_name/existing file
+type somethin
+press 
+cat tutorial1 > tutorial2
+ctrl + D to exit
+
+
+
+mv to rename the file
+mv file1 file2
+
+
+
+rm to remove/delete files
+rm file1 
+
+rm -r newDir 
+or
+rmdir newDir
+
+
+link 
+ln old new (hard link) //from now on changes you made to old file woll get automatically reflected in new file //hard link is a file..
+
+ln -s old_file old_soft (soft link)  // shortcut 
+
+
+
+FILE PERMISSIONS
+
+umask
+
+0022
+
+when file is created the shell substracts 666 for a file and 777 for a directory
+
+666  777
+022  022
+644  755
+rwx  rwx     6== 110 4== 010 7== 111 5== 101
+
+
+chmod 444 filename
+ls -l sample
+
+LS Command
+
+
+
+WORD COUNT
+wc filename
+wc -l file
+wc -w file
+wc -c file
+
+
+sort filename (sorts stuff inside)
+ 
+
+CUT COMMAND default delemter (tab) but we can have anything , - ) ( etc . etc 
+
+cut -d"-" -f 1,3 sample.txt (if thre are 3 rows and - - )
+ 
+f for fields
+
+
+
+
+dd command
+
+dd if=xmen of=xmen2 ucase
+if= input file of= output file
+
+
+man command
+
+banner (for fancy text)
+banner I am awesome
+
+
+compress -v test
+
+-v for dispaying a msg 
+zcat file
+
+
+uncompress file
+
+
+SHELL SCRIPTS BEGINS
+
