@@ -120,13 +120,3 @@ echo "Cold World"
 # echo $? you can use thos to check if the last command was successful or not... 0 success 1 Fail
 #If-else -then in action etc
 
-echo "Enter a and b file names"
-a=20
-b=30
-echo $a
-if [ $a < $b ]   # Correct Syntax
-then
-echo "yay A won"
-else
-echo "******* You"
-fi 
